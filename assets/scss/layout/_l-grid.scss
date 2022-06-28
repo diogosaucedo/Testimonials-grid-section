@@ -1,0 +1,41 @@
+@use "../base/colors";
+
+.l-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-template-areas: "c-card-1 c-card-1 c-card-2 c-card-5" "c-card-3 c-card-4 c-card-4 c-card-5";
+  gap: 2.5rem;
+
+  max-width: 100rem;
+  min-height: 60rem;
+
+  .c-card-1 {
+    grid-area: c-card-1;
+
+    background-color: colors.$moderate-violet;
+    color: colors.$white;
+  }
+  .c-card-2 {
+    grid-area: c-card-2;
+
+    background-color: colors.$very-dark-grayish-blue;
+    color: colors.$white;
+  }
+  .c-card-3 {
+    grid-area: c-card-3;
+
+    background-color: colors.$white;
+  }
+  .c-card-4 {
+    grid-area: c-card-4;
+
+    background-color: colors.$very-dark-blackish-blue;
+    color: colors.$white;
+  }
+  .c-card-5 {
+    grid-area: c-card-5;
+
+    background-color: colors.$white;
+  }
+}

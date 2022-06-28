@@ -1,0 +1,27 @@
+%u-display-flex {
+  display: flex;
+}
+
+%u-flex-direction-column {
+  flex-direction: column;
+}
+
+%u-justify-space-between {
+  justify-content: space-between;
+}
+
+%u-justify-center {
+  justify-content: center;
+}
+
+%u-justify-end {
+  justify-content: end;
+}
+
+%u-align-center {
+  align-items: center;
+}
+
+%u-align-start {
+  align-items: flex-start;
+}
